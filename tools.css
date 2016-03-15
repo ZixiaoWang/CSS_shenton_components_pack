@@ -1,0 +1,17 @@
+body{margin:0px; font-family: Arial, Helvetica, sans-serif;}
+::-webkit-scrollbar{
+    display: none;
+}
+section{ padding:50px 0px 50px 0px; width:100vw; border: 1px solid #CCC; position: relative; background-color:#EEE;}
+section.components{height:auto;}
+.section-name{padding:10px; background:orange; display: inline-block; position: absolute; top: 0px; display: none; color: white;}
+section:hover > .section-name {display: inline-block;}
+
+.grid-960{width: 960px; height: 100vh; position: fixed; top: 0px; background-color: rgba(0,0,0,0.1); pointer-events: none;
+    left: 50%; margin-left:-480px; border-left: 1px dashed red; border-right: 1px dashed red; display: none;}
+.grid-1200{width: 1200px; height: 100vh; position: fixed; top: 0px; background-color: rgba(20,10,100,0.1); pointer-events: none;
+    left: 50%; margin-left:-600px; border-left: 1px dashed red; border-right: 1px dashed red; display: none;}
+.tools{width:280px; background-color: orange; color: white; padding: 10px;
+    position: fixed; top: 0px; right: 0px; }
+.tool-btn{padding:5px 5px; display: inline-block; background-color: white;
+    border: 0px; margin:3px; cursor: pointer; border-radius: 1px;}

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SHENTON CSS LIBRARY</title>
+    <link rel="stylesheet" href="./tools.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./main.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./icono.min.css">
+  </head>
+  <body>
+    <section style="background-color:white;" id="components">
+        <div class="section-name">Components</div>
+        <div style="width:70%; margin:auto;">
+            
+            <button class="st-btn">.st-btn</button>
+            <button class="st-btn-primary">.st-btn-primary</button>
+            <button class="st-btn" disabled>.st-btn:disabled</button>
+            <button class="st-btn-primary" disabled>.st-btn-primary:disabled</button> <p></p>
+            <button class="st-btn st-btn-sm">.st-btn-sm</button>
+            <button class="st-btn-primary st-btn-sm">.st-btn.sm</button> <p></p>
+            
+            <input type="checkbox" id="checkbox1" class="st-input">
+            <label for="checkbox1">.st-input (unchecked)</label>
+            <input type="checkbox" id="checkbox2" class="st-input" checked>
+            <label for="checkbox2">.st-input (checked)</label>
+            
+            <br>
+            <input type="checkbox" id="checkbox3" class="st-input st-input-inline">
+            <label for="checkbox3">.st-input.st-input-inline (unchecked)</label>
+            <input type="checkbox" id="checkbox4" class="st-input st-input-inline" checked>
+            <label for="checkbox4">.st-input.st-input-inline (checked)</label>
+            
+            <br><br>
+            <input type="radio" id="radio1" class="st-input" name="sampleRadio">
+            <label for="radio1">.st-input (unchecked)</label>
+            <input type="radio" id="radio2" class="st-input" checked name="sampleRadio">
+            <label for="radio2">.st-input (checked)</label>
+            
+            
+        </div>
+    </section>
+      
+    <section id="logoIn" class="components">
+        <div class="section-name">.st-table</div>
+        <div style="width:70%; margin:auto;">
+        <!-- table sample -->
+            <table class="st-table">
+                <thead>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lorem ipsum.</td>
+                        <td>Lorem ipsum dolor.</td>
+                        <td>Lorem ipsum dolor sit.</td>
+                        <td>Lorem ipsum.</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum.</td>
+                        <td>Lorem ipsum dolor.</td>
+                        <td>Lorem ipsum dolor sit.</td>
+                        <td>Lorem ipsum.</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+    </section>
+    <section id="logoIn" style="display:flex; align-items:center;">
+        <div class="section-name">.login-panel</div>
+        <div class="login-panel" style="margin:auto;">
+            <img src="./logo.png" alt="FWD Logo">
+            <input type="text" name="loginId" placeholder="Email/Phone/NRIC" class="has-error">
+            <span>Please enter your account</span>
+            <input type="password" name="password" placeholder="Password" class="">
+            <span>Please enter your Password</span>
+            <button type="submit" name="login">Login</button>
+            <a href="#"><div>Forgot Your Password?</div></a>
+        </div>
+    </section>
+    <section id="card" style="background-color:rgb(217, 228, 255);">
+        <div class="section-name">.st-card<br>.st-card-image<br>.st-card-panel<br>.st-card-action</div>
+        <div style="width:70%; margin:auto;">
+            
+            <div class="st-card">
+                <div class="st-card-panel">
+                    <div>Arba Holdings Limited</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugit voluptatibus facere voluptas explicabo ullam laborum, ea laudantium praesentium aliquid, tenetur excepturi atque nobis perferendis minima sequi iure hic sint.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt in ipsam repudiandae quod, velit laborum explicabo! Dolore laudantium voluptas neque voluptatem ipsa obcaecati sit doloremque quisquam veritatis consectetur numquam, nisi!</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Telephone</td>
+                                <td>+852 2945 8273</td>
+                            </tr>
+                            <tr>
+                                <td>Fax</td>
+                                <td>+852 0237 2398</td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td>Lorem ipsum dolor sit.</td>
+                            </tr>
+                            <tr>
+                                <td>Postal Code</td>
+                                <td>2346349</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="st-card-image">
+                    <img src="http://placehold.it/400x300" alt="logo">
+                </div>
+                <div class="st-card-action">Edit</div>
+                <div style="clear:both;"></div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="small-card" style="display:flex">
+        <div class="section-name">.st-card-sm</div>
+        <div style="width:960px; margin:auto;">
+            
+            <div class="st-card-group" style="background-color:white;">
+                <div class="st-card-sm">
+                    <div class="st-card-image">
+                        <img src="http://placehold.it/400x300" alt="logo">
+                    </div>
+                    <div class="st-card-action">
+                        <span>Prudential<Br>Singapore</span>
+                    </div>
+                </div>
+                <div class="st-card-sm active">
+                    <div class="st-card-image">
+                        <img src="http://placehold.it/400x300" alt="logo">
+                    </div>
+                    <div class="st-card-action">
+                        <span>AIA</span>
+                    </div>
+                </div>
+                <div class="st-card-sm">
+                    <div class="st-card-image">
+                        <img src="http://placehold.it/400x300" alt="logo">
+                    </div>
+                    <div class="st-card-action">
+                        <span>Aviva</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="description" style="background-color:#EEE;">
+        <div class="section-name">.st-description</div>
+        <div style="width:70%; margin:auto;">
+            
+            <div class="st-description" style="border:1px solid #CCC; background-color:white;">
+                Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Nam accusamus adipisci maxime, reiciendis iure totam dolorum autem impedit consequatur expedita itaque similique, quod ad tempora quisquam id. Repudiandae, distinctio, maiores!
+            </div>
+            
+        </div>
+    </section>
+    <section id="title">
+        <div class="section-name">.st-title</div>
+        <div style="width:70%; margin:auto;">
+            
+            <div class="st-title" style="background-color:white; border:1px solid #CCC;">
+                <span class="st-title-sm">Step 1</span>
+                <span>Indicate your ISP Providers</span>
+                
+                <ul>
+                    <li class="actived">Provider</li>
+                    <li class="actived">Product</li>
+                    <li class="active">Document</li>
+                    <li>Evaluation</li>
+                    <li>Fifth</li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id="declaimer">
+        <div class="section-name">.declaimer</div>
+        <div style="width:100%; max-width:960px; margin:auto; background-color:#EEE;">
+            
+            <div class="declaimer" max-height="400"><!-- must be modified in css -->
+                <p>Lorem ipsum.</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tenetur minima cupiditate recusandae pariatur facilis quaerat quas maxime, mollitia dicta porro consequatur laborum, delectus id voluptates sint laboriosam quisquam sit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati officia maxime dolores tenetur officiis ipsum.</li>
+                </ul>
+                <p>Lorem ipsum dolor.</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, excepturi. Voluptatibus rerum, quisquam impedit omnis sint, ut veritatis eligendi reprehenderit. Sed iusto ea aperiam quisquam quia officiis unde qui labore!</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa illum, quibusdam optio quae commodi? Atque ratione nemo quisquam natus, enim, unde ex autem, eveniet accusamus facilis temporibus cum odio consequuntur eaque non delectus!</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure adipisci ipsum eum, aliquid vitae quasi soluta. Vitae quaerat doloremque consequuntur sapiente, dignissimos suscipit, fugit nihil labore, pariatur iste nemo fugiat iusto magnam unde culpa.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut laborum quaerat dolor provident eius alias eaque, eveniet, est quasi earum soluta, cupiditate sed.</li>
+                </ul>
+                <p>Lorem.</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, officiis doloremque, delectus provident laboriosam nihil cupiditate explicabo tenetur animi illo laborum distinctio ducimus iure numquam inventore perferendis libero tempora sint.</li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id="sample1">
+        <div class="section-name">Sample Page One</div>
+        <div style="width:100%; max-width:960px; margin:auto; background-color:#EEE;">
+            
+            <div class="st-title">
+                <ul>
+                    <li class="actived">Provider</li>
+                    <li class="actived">Product</li>
+                    <li class="active">Document</li>
+                    <li>Evaluation</li>
+                </ul>
+                <span class="st-title-sm">Step 1</span>
+                <span>Indicate your ISP Providers</span>
+            </div>
+            <div class="st-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum odit incidunt, nam perferendis in ipsum nesciunt minima totam quo, voluptatem quae placeat accusamus iste! Repellat libero, debitis itaque porro magnam?
+            </div>
+            <div class="st-card-group">
+                <div class="st-card-sm">
+                    <div class="st-card-image">
+                        <img src="http://placehold.it/400x300" alt="logo">
+                    </div>
+                    <div class="st-card-action">
+                        <span>Prudential<Br>Singapore</span>
+                    </div>
+                </div>
+                <div class="st-card-sm active">
+                    <div class="st-card-image">
+                        <img src="http://placehold.it/400x300" alt="logo">
+                    </div>
+                    <div class="st-card-action">
+                        <span>AIA</span>
+                    </div>
+                </div>
+                <div class="st-card-sm">
+                    <div class="st-card-image">
+                        <img src="http://placehold.it/400x300" alt="logo">
+                    </div>
+                    <div class="st-card-action">
+                        <span>Aviva</span>
+                    </div>
+                </div>
+                <div class="st-card-sm">
+                    <div class="st-card-image">
+                        <img src="http://placehold.it/400x300" alt="logo">
+                    </div>
+                    <div class="st-card-action">
+                        <span>Prudential<Br>Singapore</span>
+                    </div>
+                </div>
+                <div class="st-card-sm active">
+                    <div class="st-card-image">
+                        <img src="http://placehold.it/400x300" alt="logo">
+                    </div>
+                    <div class="st-card-action">
+                        <span>AIA</span>
+                    </div>
+                </div>
+                <div class="st-card-sm">
+                    <div class="st-card-image">
+                        <img src="http://placehold.it/400x300" alt="logo">
+                    </div>
+                    <div class="st-card-action">
+                        <span>Aviva</span>
+                    </div>
+                </div>
+            </div>
+            <div class="st-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem, molestiae? Modi atque, voluptatem consectetur quidem explicabo laboriosam incidunt, reiciendis quo reprehenderit dignissimos. Ut doloremque animi, velit nulla sit libero.
+            </div>
+            
+        </div>
+    </section>
+    <section id="sample2">
+        <div class="section-name">Sample Page Two</div>
+        <div style="width:100%;max-width:960px; margin:auto; background-color:#EEE;">
+            
+            <div class="st-title">
+                <ul>
+                    <li class="actived">Provider</li>
+                    <li class="actived">Product</li>
+                    <li class="active">Document</li>
+                    <li>Evaluation</li>
+                </ul>
+                <span class="st-title-sm">Step 1</span>
+                <span>Indicate your ISP Providers</span>
+            </div>
+            <div class="st-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum odit incidunt, nam perferendis in ipsum nesciunt minima totam quo, voluptatem quae placeat accusamus iste! Repellat libero, debitis itaque porro magnam?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed doloribus facilis veniam perferendis dolorem maxime inventore aspernatur. Ipsum magni reiciendis, quia perspiciatis animi odit dicta porro vitae, ratione laboriosam aliquid!
+            </div>
+            <table class="st-table">
+                <thead>
+                    <th>#</th>
+                    <th>lorem1</th>
+                    <th>Id</th>
+                    <th>Provider</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>lorem2</td>
+                        <td>alskd lsjdflk</td>
+                        <td>sf fsd</td>
+                        <td>asdf dihohwer kduhfo ldjygt sdfo</td>
+                    </tr>
+                    <tr>
+                        <td>lorem2</td>
+                        <td>al sdf fg dflk</td>
+                        <td>sf fsd dfasd</td>
+                        <td>asdf dihod df hwer kduhfo ldjygt sdfo</td>
+                    </tr>
+                    <tr>
+                        <td>lor df em2</td>
+                        <td>sdfd lsjdflk</td>
+                        <td>sf fsd fsd</td>
+                        <td>asd ldjygt sdfo</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="st-input-group">
+                <input type="checkbox" class="st-input st-input-inline" id="check1">
+                <label for="check1">Lorem ipsum dolor sit amet, consectetur adipisi</label>
+                
+                <button class="st-btn st-btn-primary float-right">Next</button>
+                <button class="st-btn float-right">Cancel</button>
+                <div style="clear:both;"></div>
+            </div>
+            
+            
+        </div>
+    </section>
+    
+    <!-- admin part -->
+    <section id="adminNav">
+        <div class="section-name">.admin-nav</div>
+        <div style="width:100%; max-width:1200px; margin:auto;">
+            
+            <nav class="admin-nav">
+                <div class="logo" style="background-image:url(./admin-logo.png)"></div>
+                <ul class="admin-breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Integrated Shield Plans (ISP)</a></li>
+                    <li><a href="#">AIA</a></li>
+                </ul>
+                <div class="account">♞<a href="#">Logout</a></div>
+            </nav>
+            
+        </div>
+    </section>
+    
+    <section id="adminSideBar">
+        <div class="section-name">.admin-side-bar <br> .admin-panel</div>
+        <div style="width:100%; max-width:1200px; margin:auto;">
+            
+            <side class="admin-side-bar" style="height:240px;">
+                <div class="sidebar-item active"><a href="#">Home</a></div>
+                <div class="sidebar-item"><a href="#">Companies</a></div>
+                <div class="sidebar-item"><a href="#">Campaigns</a></div>
+            </side>
+            <div class="admin-panel" style="height:250px;">
+                &nbsp;
+            </div>
+            <div style="clear:both;"></div>
+            
+        </div>
+    </section>
+    
+    <section id=".admin-title">
+        <div class="section-name">.admin-title</div>
+        <div style="background-color:#F0F4F5; width:100%; max-width:1200px; margin:auto;">
+            
+            <side class="admin-side-bar" style="height:240px;">
+                <div class="sidebar-item active"><a href="#">Home</a></div>
+                <div class="sidebar-item"><a href="#">Companies</a></div>
+                <div class="sidebar-item"><a href="#">Campaigns</a></div>
+            </side>
+            <div class="admin-panel" style="height:250px;">
+                <div class="admin-title">
+                    <h1>Home</h1>
+                    <div class="tab-group">
+                        <div class="tab"><a href="#">Dashboard</a></div>
+                        <div class="tab active"><a href="#">Integrated Shield Plans (ISP)</a></div>
+                        <div class="tab"><a href="#">Financial Advisor Companies (FAC)</a></div>
+                    </div>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+        </div>
+    </section>
+    
+    <div class="grid-960"></div>
+    <div class="grid-1200"></div>
+    <div class="tools">
+        <span>Grid reference line</span>
+        <button class="tool-btn" onclick="show960();">960</button>
+        <button class="tool-btn" onclick="show1200()">1200</button>
+        <button class="tool-btn" onclick="hidegrid()">hide</button>
+        <hr>
+        <select name="tool-list" id="toolList">
+            <option value="" selected>-- Select --</option>
+            <option value="#components">Components</option>
+        </select>
+    </div>
+  </body>
+  <script>
+        var g_960 = document.querySelector('.grid-960');
+        var g_1200 = document.querySelector('.grid-1200');
+        var show960 = function(){ 
+          g_960.style.display = 'block'; 
+          g_1200.style.display = 'none';
+        }
+        var show1200 = function(){ 
+          g_960.style.display = 'none'; 
+          g_1200.style.display = 'block';
+        }
+        var hidegrid = function(){ 
+            g_960.style.display = 'none'; 
+            g_1200.style.display = 'none';
+        }
+  </script>
+</html>
