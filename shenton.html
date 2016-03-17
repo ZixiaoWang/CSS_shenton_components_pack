@@ -18,7 +18,9 @@
             <button class="st-btn" disabled>.st-btn:disabled</button>
             <button class="st-btn-primary" disabled>.st-btn-primary:disabled</button> <p></p>
             <button class="st-btn st-btn-sm">.st-btn-sm</button>
-            <button class="st-btn-primary st-btn-sm">.st-btn.sm</button> <p></p>
+            <button class="st-btn-primary st-btn-sm">.st-btn-primary.st-btn-sm</button> <p></p>
+            <button class="st-btn st-btn-xs">.st-btn-xs</button>
+            <button class="st-btn-primary st-btn-xs">.st-btn-xs</button> <p></p>
             
             <input type="checkbox" id="checkbox1" class="st-input">
             <label for="checkbox1">.st-input (unchecked)</label>
@@ -41,7 +43,7 @@
         </div>
     </section>
       
-    <section id="logoIn" class="components">
+    <section id="table" class="components">
         <div class="section-name">.st-table</div>
         <div style="width:70%; margin:auto;">
         <!-- table sample -->
@@ -70,7 +72,7 @@
             
         </div>
     </section>
-    <section id="logoIn" style="display:flex; align-items:center;">
+    <section id="logIn" style="display:flex; align-items:center;">
         <div class="section-name">.login-panel</div>
         <div class="login-panel" style="margin:auto;">
             <img src="./logo.png" alt="FWD Logo">
@@ -82,43 +84,50 @@
             <a href="#"><div>Forgot Your Password?</div></a>
         </div>
     </section>
+    
     <section id="card" style="background-color:rgb(217, 228, 255);">
         <div class="section-name">.st-card<br>.st-card-image<br>.st-card-panel<br>.st-card-action</div>
-        <div style="width:70%; margin:auto;">
-            
-            <div class="st-card">
-                <div class="st-card-panel">
-                    <div>Arba Holdings Limited</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugit voluptatibus facere voluptas explicabo ullam laborum, ea laudantium praesentium aliquid, tenetur excepturi atque nobis perferendis minima sequi iure hic sint.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt in ipsam repudiandae quod, velit laborum explicabo! Dolore laudantium voluptas neque voluptatem ipsa obcaecati sit doloremque quisquam veritatis consectetur numquam, nisi!</p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>Telephone</td>
-                                <td>+852 2945 8273</td>
-                            </tr>
-                            <tr>
-                                <td>Fax</td>
-                                <td>+852 0237 2398</td>
-                            </tr>
-                            <tr>
-                                <td>Address</td>
-                                <td>Lorem ipsum dolor sit.</td>
-                            </tr>
-                            <tr>
-                                <td>Postal Code</td>
-                                <td>2346349</td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <div class="st-container">
+            <div class="st-row">
+                <div class="st-mob-12">
+                    
+                    <div class="st-card">
+                        <div class="st-card-panel st-mobile-12">
+                            <div class="st-card-image st-mobile-12 st-tab-6 st-des-4">
+                                <img src="http://placehold.it/400x300" alt="logo">
+                            </div>
+                            <div class="st-card-body st-mobile-12 st-tab-6 st-des-8">
+                                <div>Arba Holdings Limited</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugit voluptatibus facere voluptas explicabo ullam laborum, ea laudantium praesentium aliquid, tenetur excepturi atque nobis perferendis minima sequi iure hic sint.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt in ipsam repudiandae quod, velit laborum explicabo! Dolore laudantium voluptas neque voluptatem ipsa obcaecati sit doloremque quisquam veritatis consectetur numquam, nisi!</p>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Telephone</td>
+                                            <td>+852 2945 8273</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fax</td>
+                                            <td>+852 0237 2398</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Address</td>
+                                            <td>Lorem ipsum dolor sit.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Postal Code</td>
+                                            <td>2346349</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="st-card-action">Edit</div>
+                        <div style="clear:both;"></div>
+                    </div>
+                    
                 </div>
-                <div class="st-card-image">
-                    <img src="http://placehold.it/400x300" alt="logo">
-                </div>
-                <div class="st-card-action">Edit</div>
-                <div style="clear:both;"></div>
             </div>
-            
         </div>
     </section>
     <section id="small-card" style="display:flex">
@@ -342,6 +351,58 @@
         </div>
     </section>
     
+    <section>
+        <div class="section-name">.sample-page <br> gird-system</div>
+        <div class="st-container">
+            <div class="st-row">
+                <div class="st-mob-12">
+                    <div class="st-title">
+                        <span class="st-title-sm">Step</span>
+                        <span>Sample Title</span>
+                    </div>
+                </div>
+            </div><!-- end of stRow -->
+            <div class="st-row">
+                <div class="st-mob-12">
+                    <div class="st-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eaque delectus, voluptas deserunt asperiores commodi id adipisci, magni dolor veritatis reprehenderit tempore architecto a ducimus nam maiores velit esse iusto.
+                    </div>
+                </div>
+            </div><!-- stRow -->
+            <div class="st-row">
+                <div class="st-mob-12">
+                    <div class="card">
+                        <div class="card-left">
+                            <div class="card-image">
+                                <img src="http://placehold.it/1400x700" alt="logo">
+                            </div>
+                            <div class="card-detail">
+                                <span>Sample Company</span>
+                                <input type="checkbox" id="card1">
+                                <label for="card1"></label>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aepe maxime maiores, suscipit reprehenderit doloribus nisi? Non eum placeat doloremque eos quia mollitia, sunt impedit at nisi, aspernatur! Blanditiis, est.
+                                 </p>
+                                 <p><a target="_blank" href="https://www.google.com">Check more</a></p>
+                            </div>
+                        </div>
+                        <div class="card-right">
+                            <div class="card-panel">
+                                <table>
+                                    <tr><td><b>Contact</b></td><td>&nbsp;</td></tr>
+                                    <tr><td>Telphone</td><td>+65 1234 1234</td></tr>
+                                    <tr><td>Fax</td><td>+65 1234 1234</td></tr>
+                                    <tr><td>Address</td><td>Lorem ipsum dolor sit amet, consectetur.</td></tr>
+                                    <tr><td>Postal Code</td><td>12345678</td></tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
     <!-- admin part -->
     <section id="adminNav">
         <div class="section-name">.admin-nav</div>
@@ -377,7 +438,7 @@
         </div>
     </section>
     
-    <section id=".admin-title">
+    <section id="adminTitle">
         <div class="section-name">.admin-title</div>
         <div style="background-color:#F0F4F5; width:100%; max-width:1200px; margin:auto;">
             
@@ -402,6 +463,56 @@
         </div>
     </section>
     
+    <section id="adminBody">
+        <div class="section-name">.admin-body <br>.admin-sidemenu <br> .admin-content</div>
+        <div style="background-color:#F0F4F5; width:100%; max-width:1200px; margin:auto;">
+            
+            <side class="admin-side-bar" style="height:240px;">
+                <div class="sidebar-item active"><a href="#">Home</a></div>
+                <div class="sidebar-item"><a href="#">Companies</a></div>
+                <div class="sidebar-item"><a href="#">Campaigns</a></div>
+            </side>
+            <div class="admin-panel" style="height:250px;">
+                <div class="admin-body">
+                    <div class="admin-sidemenu">
+                        <div>
+                            <span>Providers</span>
+                            <button class="st-btn st-btn-xs float-right">Add</button>
+                        </div>
+                        <hr>
+                        <ul>
+                            <li class="active">AIA</li>
+                            <li>AXA</li>
+                            <li>FWD</li>
+                            <li>Bupa</li>
+                            <li>China Ping An Insurance (Hong Kong) Company Limited</li>
+                            <li>HSBC</li>
+                            <li>CIGNA</li>
+                            <li>AVIVA</li>
+                            <li>Great Eastern</li>
+                            <li>HSBC</li>
+                            <li>CIGNA</li>
+                            <li>AVIVA</li>
+                            <li>Great Eastern</li>
+                        </ul>
+                    </div>
+                    <div class="admin-content">
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+        </div>
+    </section>
+    
+    <section id="admin-board">
+        <div class="st-container">
+            <div class="st-row">
+                <div class="st-mob-6 st-mob-offset-3"></div>
+            </div>
+        </div>
+    </section>
+    
     <div class="grid-960"></div>
     <div class="grid-1200"></div>
     <div class="tools">
@@ -410,15 +521,39 @@
         <button class="tool-btn" onclick="show1200()">1200</button>
         <button class="tool-btn" onclick="hidegrid()">hide</button>
         <hr>
-        <select name="tool-list" id="toolList">
+        <b>Go to </b>
+        <select name="tool-list" id="toolList" onchange="selectSection()">
             <option value="" selected>-- Select --</option>
-            <option value="#components">Components</option>
+            <optgroup label="Normal">
+                <option value="#components">Components</option>
+                <option value="#logIn">logIn</option>
+                <option value="#card">card</option>
+                <option value="#table">table</option>
+                <option value="#small-card">small-card</option>
+                <option value="#description">description</option>
+                <option value="#title">title</option>
+                <option value="#declaimer">declaimer</option>
+            </optgroup>
+            <optgroup label="Admin">
+                <option value="#adminNav">adminNav</option>
+                <option value="#adminSideBar">adminSideBar</option>
+                <option value="#adminTitle">adminTitle</option>
+                <option value="#adminBody">adminBody</option>
+            </optgroup>
+            <optgroup label="Sample Page">
+                <option value="#sample1">sample1</option>
+                <option value="#sample2">sample2</option>
+            </optgroup>
         </select>
+        <hr>
+        <button class="tool-btn" onclick="hideToolPanel()">Hide tool panel</button>
+        <button class="tool-btn" onclick="showToolPanel()">show tool panel</button>
     </div>
   </body>
   <script>
         var g_960 = document.querySelector('.grid-960');
         var g_1200 = document.querySelector('.grid-1200');
+        var toolPanel = document.querySelector('.tools');
         var show960 = function(){ 
           g_960.style.display = 'block'; 
           g_1200.style.display = 'none';
@@ -430,6 +565,17 @@
         var hidegrid = function(){ 
             g_960.style.display = 'none'; 
             g_1200.style.display = 'none';
+        }
+        var selectSection = function(){
+            var currentLocation = location.href.substring(0, location.href.indexOf('#'));
+            var select = document.getElementById('toolList');
+            location.href = currentLocation + select.value;
+        }
+        var hideToolPanel = function(){
+            toolPanel.style.opacity = '0.1';
+        }
+        var showToolPanel = function(){
+            toolPanel.style.opacity = '1';
         }
   </script>
 </html>
