@@ -11,7 +11,7 @@ The package concludes all the components for shenton PMAP project.
 * Radiobox (input.st-input)
 * login (.login)
 * Table
-* Card large
+* Card large (re-modified)
 * Card small
 * title
 * description
@@ -19,3 +19,8 @@ The package concludes all the components for shenton PMAP project.
 * card-group
 * sample page 1
 * sample page 2
+* new card
+
+# Updates 
+1. (15 mar, 2016) Created this project on Github.
+2. (17 mar, 2016) Updated more components. 
