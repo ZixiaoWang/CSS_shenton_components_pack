@@ -39,6 +39,25 @@
             <input type="radio" id="radio2" class="st-input" checked name="sampleRadio">
             <label for="radio2">.st-input (checked)</label>
             
+            <br><br>
+            <div class="st-container" style="background-color:#EEF;">
+                <div class="st-row">
+                    <div class="st-mob-6">
+                        
+                        <form action="#" class="st-form">
+                            <div class="input-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="st-input">
+                            </div>
+                            <div class="input-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="st-input">
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
             
         </div>
     </section>
@@ -49,6 +68,10 @@
         <!-- table sample -->
             <table class="st-table">
                 <thead>
+                    <th>#</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
                     <th>Lorem.</th>
                     <th>Lorem.</th>
                     <th>Lorem.</th>
@@ -56,12 +79,20 @@
                 </thead>
                 <tbody>
                     <tr>
+                        <td><input type="radio" id="test__1" class="st-input"><label for="test__1">&nbsp;</label></td>
+                        <td>Lorem ipsum.</td>
+                        <td>Lorem ipsum dolor.</td>
+                        <td>Lorem ipsum dolor sit.</td>
                         <td>Lorem ipsum.</td>
                         <td>Lorem ipsum dolor.</td>
                         <td>Lorem ipsum dolor sit.</td>
                         <td>Lorem ipsum.</td>
                     </tr>
                     <tr>
+                        <td><input type="radio" id="test__2" class="st-input"><label for="test__2">&nbsp;</label></td>
+                        <td>Lorem ipsum.</td>
+                        <td>Lorem ipsum dolor.</td>
+                        <td>Lorem ipsum dolor sit.</td>
                         <td>Lorem ipsum.</td>
                         <td>Lorem ipsum dolor.</td>
                         <td>Lorem ipsum dolor sit.</td>
@@ -505,10 +536,95 @@
         </div>
     </section>
     
-    <section id="admin-board">
+    <section id="admin-board" id="tip">
+        <div class="section-name">.tip <br> .tip-panel <br> .tip-action</div>
         <div class="st-container">
             <div class="st-row">
-                <div class="st-mob-6 st-mob-offset-3"></div>
+                <div class="st-mob-6 st-mob-offset-3">
+                    
+                    <div class="tip">
+                        <div class="tip-panel tip-book">
+                            <h1>4</h1>
+                            <span>Policies</span>
+                        </div>
+                    </div>
+                    <div class="tip">
+                        <div class="tip-panel tip-book">
+                            <h1>4</h1>
+                            <span>Policies</span>
+                        </div>
+                        <div class="tip-action">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Pending Start</td>
+                                        <td>12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ongoing</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Finished</td>
+                                        <td>7</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="form">
+        <div class="section-name">.st-form</div>
+        <div class="st-container">
+            <div class="st-row">
+                <div class="st-mob-half"></div>
+                <div class="st-mob-7">
+                    
+                    <form action="#" class="st-form">
+                        <div class="input-group">
+                            <label for="companyName">Company Name</label>
+                            <input type="text" class="st-input">
+                        </div>
+                        <div class="input-group">
+                            <label for="companyName">Insured Period (from)</label>
+                            <input type="text" class="st-input">
+                        </div>
+                        <div class="input-group">
+                            <label for="companyName">Insured Period (to)</label>
+                            <input type="text" class="st-input">
+                        </div>
+                        <div class="input-group">
+                            <label for="companyName">Login Field</label>
+                            <div class="radio-group">
+                                <input type="radio" class="st-input" id="NRIC" name="loginField" >
+                                <label for="NRIC">NRIC</label>
+                                <input type="radio" class="st-input" id="PhoneNumber" name="loginField">
+                                <label for="PhoneNumber">Phone Number</label>
+                                <input type="radio" class="st-input" id="Email" name="loginField">
+                                <label for="Email">Email</label>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+                <div class="st-mob-half"></div>
+                <div class="st-mob-4">
+                    <div class="card">
+                        <div class="card-panel">
+                            <div class="card-image">
+                                <img src="http://placehold.it/300x300" alt="logo">
+                            </div>
+                            <div class="st-input-group">
+                                <button class="st-btn align-center">PDF</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -539,6 +655,8 @@
                 <option value="#adminSideBar">adminSideBar</option>
                 <option value="#adminTitle">adminTitle</option>
                 <option value="#adminBody">adminBody</option>
+                <option value="#tip">tip</option>
+                <option value="#form">form</option>
             </optgroup>
             <optgroup label="Sample Page">
                 <option value="#sample1">sample1</option>

@@ -41,4 +41,11 @@ app
             templateUrl:'../templates/card-lg.html',
             replace:true
         }
+    })
+    .directive('adminTip', function(){
+        return{
+            restrict:'AE',
+            templateUrl:'../templates/admin-tip.html',
+            replace:true
+        }
     });
