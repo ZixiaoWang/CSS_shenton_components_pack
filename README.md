@@ -20,7 +20,11 @@ The package concludes all the components for shenton PMAP project.
 * sample page 1
 * sample page 2
 * new card
+* Grid system ~ new
+* From
+* Tips
 
 # Updates 
 1. (15 mar, 2016) Created this project on Github.
 2. (17 mar, 2016) Updated more components. 
+3. (18 mar, 2016) Updated more components.
